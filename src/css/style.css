@@ -1444,3 +1444,29 @@ footer
   object-fit: cover; /* Cắt ảnh đều và không làm vỡ bố cục */
   object-position: center;
 }
+.nav-link {
+  position: relative;
+  padding: 8px 14px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0%;
+  height: 2px;
+  background-color: #00BFFF; /* màu xanh đẹp */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00BFFF !important;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
