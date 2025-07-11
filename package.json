@@ -1,0 +1,14 @@
+{
+  "name": "static-web-project",
+  "version": "1.0.0",
+  "description": "A static web project using HTML, CSS, and jQuery.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
