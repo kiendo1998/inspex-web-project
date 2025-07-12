@@ -1469,4 +1469,28 @@ footer
 .nav-link:hover::after {
   width: 100%;
 }
-
+.btn-doc-them {
+  background-color: #000;  /* Nền đen */
+  color: #fff;              /* Chữ trắng */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+  font-weight: 500;
+}
+.btn-doc-them:hover {
+  background-color: #333;
+  color: #fff;
+}
+.fixed-height {
+  height: 80px; /* hoặc 2 dòng text phù hợp */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+.card-title {
+  font-weight: bold;
+}
