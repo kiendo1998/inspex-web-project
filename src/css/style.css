@@ -1471,6 +1471,7 @@ footer
   border: none;
   padding: 10px 20px;
   margin-top: 15px;
+  display: inline-block;
   transition: background 0.3s ease;
   font-weight: 500;
 }
