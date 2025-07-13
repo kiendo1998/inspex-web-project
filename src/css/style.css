@@ -1470,7 +1470,7 @@ footer
   color: #fff;              /* Chữ trắng */
   border: none;
   padding: 10px 20px;
-  margin-top: 15px;
+  margin-bottom: 15px;
   display: inline-block;
   transition: background 0.3s ease;
   font-weight: 500;
