@@ -10,21 +10,36 @@
   <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-  <header class="bg-dark text-white py-3">
-  <div class="container d-flex justify-content-between align-items-center">
-    <a href="index.html">
-      <img src="src/images/logo_light_cut.png" alt="Inspex Logo" style="height: 80px;">
-    </a>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link text-white" href="index.html">Trang chủ</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="product.html">Sản phẩm</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="index.html#about">Về chúng tôi</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="index.html#services">Dịch vụ</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="index.html#clients">Khách hàng</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="index.html#contact">Liên hệ</a></li>
-      </ul>
-    </nav>
+<!-- Header gồm 2 phần: logo + menu -->
+<header>
+  <!-- Phần logo + liên hệ -->
+  <div style="background-color: #90EE90;" class="py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="index.html" class="navbar-brand">
+        <img src="src/images/logo_original_cut.png" alt="Inspex Logo" style="height: 60px;">
+      </a>
+      <div class="text-right text-dark">
+        <strong>Liên hệ:</strong><br>
+        Hotline: 0967 498 684<br>
+        Email: inspexvietnam@gmail.com
+      </div>
+    </div>
+  </div>
+
+  <!-- Phần menu navbar -->
+  <div style="background-color: #222;" class="py-2">
+    <div class="container">
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="product.html">Sản phẩm</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html#about">Về chúng tôi</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html#services">Dịch vụ</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html#clients">Khách hàng</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -138,22 +153,24 @@
     <div class="row align-items-center">
       <div class="col-md-6 text-md-left text-center mb-2 mb-md-0">
         © 2025 InspeX Vietnam. All rights reserved.<br>
-        Địa chỉ: Số nhà 32, đường vào TTGDQP - Đại Quốc Gia Hà Nội, Hoà Lạc, Hà Nội
+        <strong>Trụ sở chính:</strong> Số nhà 32, đường vào TTGDQP - Đại Quốc Gia Hà Nội, Hoà Lạc, Hà Nội<br>
+        <strong>Văn phòng:</strong> GS3, khu đô thị Vinhomes Smart City, Tây Mỗ, Hà Nội
       </div>
       <div class="col-md-6 text-md-right text-center">
         <a href="mailto:inspexvietnam@gmail.com" class="text-white mx-2">
           <i class="ti-email"></i> inspexvietnam@gmail.com
         </a>
-        <a href="https://zalo.me/0967498684" target="_blank" class="text-white mx-2">
+        <a href="https://zalo.me/0906670956" target="_blank" class="text-white mx-2">
           <i class="ti-mobile"></i> Zalo
         </a>
-        <a href="tel:0967498684" class="text-white mx-2">
-          <i class="ti-headphone-alt"></i> 0967 498 684
+        <a href="tel:0906670956" class="text-white mx-2">
+          <i class="ti-headphone-alt"></i> 0906 670 956
         </a>
       </div>
     </div>
   </div>
 </footer>
+
 <!-- JS -->
 <script src="src/plugins/jquery/jquery.js"></script>
 <script src="src/plugins/bootstrap/js/bootstrap.min.js"></script>
